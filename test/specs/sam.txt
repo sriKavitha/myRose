@@ -1,0 +1,9 @@
+npx wdio --spec test/specs/ssoLogin.spec.js | tee results/Apr21/ssoLogin_result3.txt
+
+
+
+npx wdio --spec test/specs/ssoRegistration.spec.js | tee results/Apr21/ssoRegistration_result1.txt
+
+npx wdio --spec test/specs/ssoResetPassword.spec.js | tee results/Apr21/ssoResetPassword_result1.txt
+
+npx wdio --spec test/specs/ssoUpdate.spec.js | tee results/Apr21/ssoUpdate_result1.txt

@@ -1,0 +1,84 @@
+
+Execution of 1 workers started at 2023-03-27T14:23:00.679Z
+
+2023-03-27T14:23:01.640Z INFO @wdio/cli:launcher: Run onPrepare hook
+2023-03-27T14:23:01.642Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2023-03-27T14:23:01.643Z INFO @wdio/local-runner: Start worker 0-0 with arg: --spec,test/specs/ssoLogin.spec.js
+[0-0] 2023-03-27T14:23:02.406Z INFO @wdio/local-runner: Run worker command: run
+[0-0] RUNNING in chrome - file:///test/specs/ssoLogin.spec.js
+[0-0] 2023-03-27T14:23:03.017Z INFO devtools:puppeteer: Initiate new session using the DevTools protocol
+[0-0] 2023-03-27T14:23:03.020Z INFO devtools: Launch Google Chrome (undefined) with flags: --enable-automation --disable-popup-blocking --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --no-default-browser-check --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --force-fieldtrials=*BackgroundTracing/default/ --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+[0-0] 2023-03-27T14:23:03.558Z INFO devtools: Connect Puppeteer with browser on port 53285
+[0-0] 2023-03-27T14:23:04.509Z INFO webdriver: COMMAND enablePerformanceAudits()
+[0-0] 2023-03-27T14:23:04.509Z INFO webdriver: RESULT undefined
+[0-0] 2023-03-27T14:23:04.511Z INFO @wdio/devtools-service:TraceGatherer: Start tracing frame with url https://sso.nylservices.net/login?clientId=5td2qm6ha7d0uhqifiqn6s49dc&callbackUri=/update-profile&secondCallbackUri=false
+[0-0] 2023-03-27T14:23:04.581Z INFO devtools: COMMAND navigateTo("https://sso.nylservices.net/login?clientId=5td2qm6ha7d0uhqifiqn6s49dc&callbackUri=/update-profile&secondCallbackUri=false")
+[0-0] 2023-03-27T14:23:05.084Z INFO @wdio/devtools-service:TraceGatherer: Page load detected: https://sso.nylservices.net/login?clientId=5td2qm6ha7d0uhqifiqn6s49dc&callbackUri=/update-profile&secondCallbackUri=false, set frameId 616C204AF052AF96032D547B9FCE94B5, set loaderId 85CBA64AF9416984D24EC19A98984213
+[0-0] 2023-03-27T14:23:06.582Z INFO devtools: RESULT null
+[0-0] 2023-03-27T14:23:06.582Z INFO @wdio/devtools-service: Wait until tracing for command navigateTo finishes
+[0-0] 2023-03-27T14:23:06.585Z INFO @wdio/devtools-service:TraceGatherer: page load happen to quick, waiting 12926ms more
+[0-0] 2023-03-27T14:23:19.513Z INFO @wdio/devtools-service:TraceGatherer: Tracing completed after 15002ms, capturing performance data for frame 616C204AF052AF96032D547B9FCE94B5
+[0-0] 2023-03-27T14:23:19.740Z INFO @wdio/devtools-service:TraceGatherer: Replace mainFrame process id 11337 with actual thread process id 11337
+[0-0] 2023-03-27T14:23:19.740Z INFO @wdio/devtools-service:TraceGatherer: Tracing for 616C204AF052AF96032D547B9FCE94B5 completed
+[0-0] 2023-03-27T14:23:19.741Z INFO @wdio/devtools-service: Disable throttling
+[0-0] 2023-03-27T14:23:19.743Z INFO @wdio/devtools-service: continuing with next WebDriver command
+[0-0] 2023-03-27T14:23:19.743Z INFO webdriver: COMMAND getMetrics()
+[0-0] 2023-03-27T14:23:20.161Z INFO webdriver: RESULT {
+[0-0]   timeToFirstByte: 142,
+[0-0]   serverResponseTime: 142,
+[0-0]   domContentLoaded: 1674,
+[0-0]   firstVisualChange: 1687,
+[0-0]   firstPaint: 1811,
+[0-0]   firstContentfulPaint: 1811,
+[0-0]   firstMeaningfulPaint: 2017,
+[0-0]   largestContentfulPaint: 2017,
+[0-0]   lastVisualChange: 2037,
+[0-0]   interactive: 1811,
+[0-0]   load: 1996,
+[0-0]   speedIndex: 1934,
+[0-0]   totalBlockingTime: 0,
+[0-0]   maxPotentialFID: 16,
+[0-0]   cumulativeLayoutShift: 0.010992703744493392
+[0-0] }
+[0-0] Metrics - SSO Login page: {
+[0-0]   timeToFirstByte: 142,
+[0-0]   serverResponseTime: 142,
+[0-0]   domContentLoaded: 1674,
+[0-0]   firstVisualChange: 1687,
+[0-0]   firstPaint: 1811,
+[0-0]   firstContentfulPaint: 1811,
+[0-0]   firstMeaningfulPaint: 2017,
+[0-0]   largestContentfulPaint: 2017,
+[0-0]   lastVisualChange: 2037,
+[0-0]   interactive: 1811,
+[0-0]   load: 1996,
+[0-0]   speedIndex: 1934,
+[0-0]   totalBlockingTime: 0,
+[0-0]   maxPotentialFID: 16,
+[0-0]   cumulativeLayoutShift: 0.010992703744493392
+[0-0] }
+[0-0] 2023-03-27T14:23:20.185Z INFO webdriver: COMMAND disablePerformanceAudits()
+[0-0] 2023-03-27T14:23:20.185Z INFO webdriver: RESULT undefined
+[0-0] 2023-03-27T14:23:20.211Z INFO devtools: COMMAND deleteSession()
+[0-0] 2023-03-27T14:23:20.213Z INFO devtools: RESULT null
+[0-0] PASSED in chrome - file:///test/specs/ssoLogin.spec.js
+2023-03-27T14:23:20.334Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2023-03-27T14:23:20.335Z INFO @wdio/cli:launcher: Run onComplete hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 111.0.0.0 darwin #0-0] Running: chrome (v111.0.0.0) on darwin
+[chrome 111.0.0.0 darwin #0-0] Session ID: 865fbaf2-5979-4d45-9ee1-f364084123ac
+[chrome 111.0.0.0 darwin #0-0]
+[chrome 111.0.0.0 darwin #0-0] » /test/specs/ssoLogin.spec.js
+[chrome 111.0.0.0 darwin #0-0] Capture web performance speed for NYL
+[chrome 111.0.0.0 darwin #0-0]    ✓ SSO Login page - Capture metrics data
+[chrome 111.0.0.0 darwin #0-0]
+[chrome 111.0.0.0 darwin #0-0] 1 passing (15.7s)
+
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:19 
+
+2023-03-27T14:23:20.336Z INFO @wdio/local-runner: Shutting down spawned worker
+2023-03-27T14:23:20.587Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2023-03-27T14:23:20.588Z INFO @wdio/local-runner: shutting down
